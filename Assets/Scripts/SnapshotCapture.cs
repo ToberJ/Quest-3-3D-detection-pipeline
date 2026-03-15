@@ -317,9 +317,10 @@ public class SnapshotCapture : MonoBehaviour
 
         if (detectionClient != null && bboxVisualizer != null)
         {
+            float cy_api = tex.height - intrinsics.PrincipalPoint.y; // top-left → bottom-left for API
             StartCoroutine(RunDetectionPipeline(
                 png, intrinsics.FocalLength.x, intrinsics.FocalLength.y,
-                intrinsics.PrincipalPoint.x, intrinsics.PrincipalPoint.y,
+                intrinsics.PrincipalPoint.x, cy_api,
                 camToWorld, _captureCount - 1));
         }
         else
