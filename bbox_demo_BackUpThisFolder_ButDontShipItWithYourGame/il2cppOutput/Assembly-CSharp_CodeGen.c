@@ -1,0 +1,84 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BBoxVisualizer_Start_mE35FA3DF0BD9EEAFB89199C72F532457A8C22586 (void);
+extern void BBoxVisualizer_LoadBoxes_m7C24654997C93BEFCCB2DD54CA1C55823B20EC55 (void);
+extern void BBoxVisualizer_CreateDemoBoxes_mFD0A4FED5E9032209B55283697218AF20E020D58 (void);
+extern void BBoxVisualizer_CreateBoxVisual_m5C62DF7352D76F9A2B34EFF9E1DB57660C1C0CC3 (void);
+extern void BBoxVisualizer_CreateWireframeBox_m2106F66C853FFD2552346F9074C5FB54D35730D9 (void);
+extern void BBoxVisualizer_CreateLabel_m18509494E883D8CA8F82895CFB856F9CE85C4C70 (void);
+extern void BBoxVisualizer_OnDestroy_mB21D69A5FFDB2F28E751D47103944C3C6994568B (void);
+extern void BBoxVisualizer__ctor_m26169F727667219B807BF387533C5AFF103FDEEF (void);
+extern void BBox3D__ctor_mA142E6AC6DE19FF1C75ADC831546713CD74E323B (void);
+extern void BBoxList__ctor_m9E72B48B418D2DCC035ED7A0B238652E1EF2A198 (void);
+extern void BBoxLabelBillboard_LateUpdate_mCAC77438D8A749C2BD9AF2FD41E40A0202F91B8C (void);
+extern void BBoxLabelBillboard__ctor_m6D84B38E0093F63E09AD41EC2FBD05394C1C374E (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[16] = 
+{
+	BBoxVisualizer_Start_mE35FA3DF0BD9EEAFB89199C72F532457A8C22586,
+	BBoxVisualizer_LoadBoxes_m7C24654997C93BEFCCB2DD54CA1C55823B20EC55,
+	BBoxVisualizer_CreateDemoBoxes_mFD0A4FED5E9032209B55283697218AF20E020D58,
+	BBoxVisualizer_CreateBoxVisual_m5C62DF7352D76F9A2B34EFF9E1DB57660C1C0CC3,
+	BBoxVisualizer_CreateWireframeBox_m2106F66C853FFD2552346F9074C5FB54D35730D9,
+	BBoxVisualizer_CreateLabel_m18509494E883D8CA8F82895CFB856F9CE85C4C70,
+	BBoxVisualizer_OnDestroy_mB21D69A5FFDB2F28E751D47103944C3C6994568B,
+	BBoxVisualizer__ctor_m26169F727667219B807BF387533C5AFF103FDEEF,
+	BBox3D__ctor_mA142E6AC6DE19FF1C75ADC831546713CD74E323B,
+	BBoxList__ctor_m9E72B48B418D2DCC035ED7A0B238652E1EF2A198,
+	BBoxLabelBillboard_LateUpdate_mCAC77438D8A749C2BD9AF2FD41E40A0202F91B8C,
+	BBoxLabelBillboard__ctor_m6D84B38E0093F63E09AD41EC2FBD05394C1C374E,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[16] = 
+{
+	20381,
+	20141,
+	20141,
+	15568,
+	3751,
+	2707,
+	20381,
+	20381,
+	20381,
+	20381,
+	20381,
+	20381,
+	20381,
+	20381,
+	33457,
+	20381,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	16,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
